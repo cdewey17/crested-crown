@@ -50,7 +50,8 @@ body.night{color-scheme:dark;--ink:#f7f2ff;--muted:#d8cfee;--paper:#17102e;--pap
 .intro{max-width:610px;margin:0 auto 22px;text-align:center;color:var(--muted);font-size:.94rem}.intro strong{color:var(--ink)}
 .reading-body{max-width:650px;margin:0 auto;width:100%}
 .opening-drop{position:relative;margin:0 0 22px;padding:0;color:var(--muted);font-size:.94rem;line-height:1.7}
-.opening-drop::before{content:"F";float:left;margin:-8px 7px -3px 0;color:var(--gold);font-size:3.9rem;line-height:1;font-weight:500}
+.opening-drop::before{content:"F";float:left;margin:-8px 7px -3px 0;color:var(--section)!important;font-size:3.9rem;line-height:1;font-weight:500}
+.drop-cap{float:left;margin:-8px 7px -3px 0;color:var(--section)!important;font-size:3.9rem;line-height:1;font-weight:500}
 .opening-drop p{margin:0 0 10px}.opening-drop strong{color:var(--ink)}
 .path-line{display:flex;align-items:center;gap:12px;margin:22px 0 20px;color:var(--gold)}
 .path-line::before,.path-line::after{content:"";height:1px;flex:1;background:linear-gradient(to right,transparent,var(--gold-soft))}.path-line::after{background:linear-gradient(to left,transparent,var(--gold-soft))}.path-line span{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-family:Arial,Helvetica,sans-serif;font-weight:700}
